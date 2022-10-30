@@ -173,4 +173,4 @@ def predict_age_and_gender(input_path: str):
 if __name__ == "__main__":
     import sys
     # input_path = sys.argv[1]
-    predict_age_and_gender("men-1.jpg")
+    predict_age_and_gender("images/kids.jpg")

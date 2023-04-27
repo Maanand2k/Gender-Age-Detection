@@ -1,0 +1,3 @@
+https://www.thepythoncode.com/code/gender-and-age-detection-using-opencv-python
+
+https://www.thepythoncode.com/article/gender-and-age-detection-using-opencv-python

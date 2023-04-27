@@ -53,7 +53,7 @@ def get_faces(frame, confidence_threshold=0.5):
                 np.array([frame.shape[1], frame.shape[0],
                          frame.shape[1], frame.shape[0]])
             # convert to integers
-            start_x, start_y, end_x, end_y = box.astype(np.int)
+            start_x, start_y, end_x, end_y = box.astype(np.int32)
             # widen the box a little
             start_x, start_y, end_x, end_y = start_x - \
                 10, start_y - 10, end_x + 10, end_y + 10
